@@ -1,0 +1,33 @@
+/* Utilisation de polices propres */
+body {
+    font-family: 'Aptos', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.main-wrapper {
+    max-width: 500px;
+}
+
+/* Effet au survol sur le lien projet */
+.projects-section a:hover {
+    text-decoration: underline !important;
+    color: #0078D4 !important; /* Change au bleu tech au survol */
+}
+
+/* Optimisation mobile */
+@media only screen and (max-width: 480px) {
+    .main-wrapper {
+        width: 100% !important;
+    }
+    .photo-cell {
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+        padding-right: 0 !important;
+    }
+    .info-cell {
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+    }
+}

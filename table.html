@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Ce template montre comment créer un tableau simple en HTML. -->
+<html>
+    <head>
+        <title> Apprendre à faire un tableau</title>
+        <style>
+            table {
+                border-collapse: collapse; /* Fusionne les bordures des cellules */
+            }
+            td {
+                border: 1px solid cyan; /* Bordure cyan pour chaque cellule */
+                padding: 8px; /* Espacement interne des cellules */
+
+            }
+            img {
+            /* Assure que l'image ne dépasse pas la taille de la cellule si on lui donne une largeur */
+            max-width: 100%; 
+            height: auto;
+            display: block; /* Aide à la mise en page de l'image */
+        }
+        </style>
+    </head>
+    <body>
+        <table border="0", cellpading = "20", width = "300">
+            <tr> <!-- Ajouter une image  -->
+                <td colspan="2" style="border: solid; border-color: aqua; width: 100; text-align: center;">
+                    <img src="_DSC1409.JPG" alt="Image Exemple" width="150" height="150">
+                </td>
+            </tr>
+            <tr>
+                <td style="border: solid; border-color: aqua; width: 100;"> 
+                    Zoléni Kokolo Zassi </td>
+                <td style="border: solid; border-color: aqua; width: 100;"> 
+                    20 ans </td>
+            </tr>
+            <tr>
+                <td style="border: solid; border-color: aqua; width: 100;">
+                     Bachelor Human IT </td>
+                <td style="border: solid; border-color: aqua; width: 100;">
+                     ENSEA </td>
+            </tr>
+        </table>
+        <table border="0", cellpading = "0", cellspacing = "0", width = "300" style="margin-top: 15px;">
+            <!-- border="0" pour enlever les bordures du tableau -->
+            <tr>
+                <td style="border-top: 2px solid #D32F2F; padding-top: 10px;">
+                    <p style="margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; color: #1E1E1E;">
+                        ENSEA
+                    </p>
+                    <p style="margin: 3px 0 0 0; padding: 0; font-family: Arial, sans-serif; font-size: 12px; color: #757575;">
+                        Bachelor Human IT
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
