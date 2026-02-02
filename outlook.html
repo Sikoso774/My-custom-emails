@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<style>
+    /* --- CONFIGURATION GÉNÉRALE --- */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Conteneur principal */
+    .signature-table {
+        font-family: 'Segoe UI', Arial, sans-serif; /* Police moderne */
+        color: #333333;
+        width: 500px;
+        border-collapse: collapse;
+    }
+
+    /* --- PHOTO DE PROFIL --- */
+    .col-photo {
+        width: 140px;
+        vertical-align: top;
+        padding: 20px 20px 20px 0;
+    }
+    .photo-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;       /* Rend l'image ronde */
+        border: 4px solid #295921; /* Bordure Vert Foncé */
+        object-fit: cover;
+        display: block;
+    }
+
+    /* --- INFORMATIONS TEXTE --- */
+    .col-info {
+        vertical-align: top;
+        padding: 20px 0;
+    }
+    .name-title {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333333;
+    }
+    .job-title {
+        margin: 4px 0 15px 0;
+        font-size: 14px;
+        color: #295921; /* Vert Pro */
+        font-weight: 600;
+    }
+    .student-tag {
+        color: #666666;
+        font-weight: normal;
+    }
+
+    /* --- CONTACT & ICÔNES --- */
+    .contact-row td {
+        padding-bottom: 8px;
+        font-size: 13px;
+    }
+    .icon-small {
+        width: 14px;
+        height: 14px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    .contact-link {
+        color: #4A4A4A;
+        text-decoration: none;
+    }
+    .social-icon {
+        width: 22px;
+        height: 22px;
+        border: 0;
+        display: block;
+    }
+
+    /* --- SECTION PROJETS (BAS) --- */
+    .projects-box {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-left: 4px solid #295921;
+        border-radius: 0 4px 4px 0;
+        margin-top: 10px;
+    }
+    .projects-title {
+        margin: 0;
+        font-size: 11px;
+        font-weight: bold;
+        color: #295921;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .projects-link {
+        color: #D32F2F; /* Rouge Accent */
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .projects-link:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<table class="signature-table" cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="col-photo">
+            <img class="photo-img" 
+                 src="https://github.com/Sikoso774/signature-assets/blob/main/images/Me_circle.png?raw=true" 
+                 alt="Zoléni Kokolo Zassi">
+        </td>
+
+        <td class="col-info">
+            <div class="name-title">Zoléni Kokolo Zassi</div>
+            <div class="job-title">
+                Développeur Python & DevOps en devenir | <span class="student-tag">Étudiant</span>
+            </div>
+
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr class="contact-row">
+                    <td>
+                        <img class="icon-small" src="https://raw.githubusercontent.com/Sikoso774/signature-assets/main/images/png/email.png" alt="email">
+                        <a href="mailto:zolenikokolozassi@outlook.com" class="contact-link">zolenikokolozassi@outlook.com</a>
+                    </td>
+                </tr>
+                <tr class="contact-row">
+                    <td>
+                        <img class="icon-small" src="https://raw.githubusercontent.com/Sikoso774/signature-assets/main/images/png/call.png" alt="tel">
+                        <span class="contact-link">+33 (0)7 85 62 76 40</span>
+                    </td>
+                </tr>
+            </table>
+
+            <table cellpadding="0" cellspacing="0" border="0" style="margin-top: 10px;">
+                <tr>
+                    <td style="padding-right: 10px;">
+                        <a href="https://www.linkedin.com/in/zoléni-kokolo-zassi-280a282ba" target="_blank">
+                            <img class="social-icon" src="https://raw.githubusercontent.com/Sikoso774/signature-assets/main/images/png/linkedin-logo.png" alt="LinkedIn">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://github.com/Sikoso774" target="_blank">
+                            <img class="social-icon" src="https://raw.githubusercontent.com/Sikoso774/signature-assets/main/images/png/github.png" alt="GitHub">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <div class="projects-box">
+                <p class="projects-title">Projets Clés</p>
+                <p style="margin: 5px 0 0 0;">
+                    <a href="https://github.com/Sikoso774" class="projects-link">
+                        🚀 Découvrir mes derniers projets sur GitHub →
+                    </a>
+                </p>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
